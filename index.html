@@ -19,6 +19,10 @@
       crossorigin="anonymous"
     />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+
     <!-- Custom styles -->
     <link href="css/style.css" rel="stylesheet" />
 
@@ -53,26 +57,20 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="about.html">О нас</a>
+            <a class="nav-link" href="about.html">Про діяльність</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="services.html">Услуги</a>
+            <a class="nav-link" href="services.html">Послуги</a>
+          </li>         
+          <li class="nav-item">
+            <a class="nav-link" href="pricing.html">Ціни</a>
+          </li>          
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Контакти</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about.html">Галерея</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">Цены</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">Модельная оснастка</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Контакты</a>
-          </li>
-          <li class="nav-item">
-            <a href="tel:+380965142757" class="nav-link"
-              ><i class="fas fa-phone-alt"></i> (096) 514-27-57</a
+            <a href="tel:+380936266576 " class="nav-link"
+              ><i class="fas fa-phone-alt"></i> (093) 626 65 76 </a
             >
           </li>
           <li>
@@ -87,30 +85,14 @@
         </ul>
       </div>
     </nav>
-    <header>
-      <div
-        id="carouselExampleIndicators"
-        class="carousel slide"
-        data-ride="carousel"
-      >
-        <ol class="carousel-indicators">
-          <li
-            data-target="#carouselExampleIndicators"
-            data-slide-to="0"
-            class="active"
-          ></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner" role="listbox">
-          <!-- Slide One - Set the background image for this slide in the line below -->
+    <header>     
           <div
             class="carousel-item active"
             style="
               background: linear-gradient(
-                  -45deg,
-                  rgba(244, 67, 54, 0.61),
-                  rgba(255, 152, 0, 0.42)
+                  256deg,
+                  rgba(0, 12, 23, 0.61),
+                  rgba(11, 52, 85, 0.99)
                 ),
                 url(.//img/slide-01.jpg);
               background-repeat: no-repeat;
@@ -122,13 +104,14 @@
               background-size: cover;
             "
           >
-            <div class="carousel-caption d-none d-md-block">
-              <h3>Скромный бюджет. Смелые планы. Вместе с GO-site</h3>
-              <p>Качественные услуги для вас</p>
+            <div class="carousel-caption">
+                
+              <h3>Богомаз Костянтин Павлович</h3>
+              <p>Адвокат</p>
             </div>
           </div>
-          <!-- Slide Two - Set the background image for this slide in the line below -->
-          <div
+          
+          <!-- <div
             class="carousel-item"
             style="
               background: linear-gradient(
@@ -147,12 +130,12 @@
             "
           >
             <div class="carousel-caption d-none d-md-block">
-              <h3>Скромный бюджет. Смелые планы. Вместе с GO-site</h3>
-              <p>Качественные услуги для вас</p>
+              <h3>Ваш надійний адвокат</h3>
+              <p>Якість, швидкість, конфеденціальніть</p>
             </div>
-          </div>
-          <!-- Slide Three - Set the background image for this slide in the line below -->
-          <div
+          </div> -->
+          
+          <!-- <div
             class="carousel-item"
             style="
               background: linear-gradient(
@@ -171,12 +154,12 @@
             "
           >
             <div class="carousel-caption d-none d-md-block">
-              <h3>Скромный бюджет. Смелые планы. Вместе с GO-site</h3>
-              <p>Качественные услуги для вас</p>
+              <h3>Ваш надійний адвокат</h3>
+              <p>Якість, швидкість, конфеденціальніть</p>
             </div>
-          </div>
+          </div> -->
         </div>
-        <a
+        <!-- <a
           class="carousel-control-prev"
           href="#carouselExampleIndicators"
           role="button"
@@ -193,12 +176,12 @@
         >
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Следующий</span>
-        </a>
+        </a> -->
       </div>
-    </header>
+    </header>  
 
     <!-- Page Content -->
-    <section class="services">
+    <!-- <section class="services">
       <div class="container">
         <div class="section-subheading">сервис</div>
         <h2 class="section-heading">К вашим услугам</h2>
@@ -298,72 +281,85 @@
               </div>
             </a>
           </div>
-        </div>
-
-        <!-- /.row -->
+        </div>        
       </div>
-    </section>
+    </section> -->
     <!-- Call to Action Section -->
-
-    <section class="cta py-5 text-center">
-      <div class="container">
-        <h2>
-          Свяжитесь с нами для получения дополненитльной информации и просчета
-          вашего проекта
-        </h2>
-        <a
-          class="btn btn-custom btn-custom-cta btn-white"
-          href="#"
-          data-toggle="modal"
-          data-target="#modal-custom"
-          >Оставить запрос</a
-        >
-      </div>
-    </section>
 
     <!-- About Section -->
     <section class="about bg-pattern">
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
-            <img class="img-fluid" src="img/about.jpg" alt="" />
+            <img class="img-fluid" src="img/about-02.jpg" alt="" />
           </div>
           <div class="col-lg-6">
             <div class="about-section-text ml-3">
               <div class="section-subheading">
-                Качество, надежность, профессионализм
+                Якість, швидкість, конфеденціальніть
               </div>
-              <h2 class="section-heading">Компания «Кремлит»</h2>
+              <h2 class="section-heading">Ваш надійний адвокат</h2>
               <p>
-                «Кремлит» - является литейным предприятием города Кременчуга,
-                которое специализируется на литье черных металлов разных марок,
-                а также алюминия. Наши технические возможности позволяют
-                производить как мелкое так и крупное литье, как индивидуальный
-                разовый заказ так и серийный. Максимальный вес отливки
-                составляет 400 кг.
+                Кожна особа в тій чи іншій мірі вчиняє правочини для задоволення
+                своїх життєвих потреб. Держава встановлює норми права чим
+                регулює наші суспільні відносини. Завдяки цьому існує порядок.
+                Наявність норм права породжує певні права та обов'язки громадян.
+                Інститут адвокатури з'явився як механізм для надання правової
+                допомоги при вчиненні певних дій або для захисту порушених прав.
+                Іншими словами правознавець допомагає іншій особі врегулювати її
+                відносини у відповідності до норм чинного законодавства.
               </p>
-              <a class="btn btn-custom btn-custom-cta mr-3" href="about.html"
-                >Узнать детали</a
-              >
-              <a class="btn btn-custom-outline" href="contact.html"
-                >Связаться с нами</a
-              >
             </div>
           </div>
         </div>
       </div>
     </section>
+<section class="cta py-5 text-center">
+      <div class="container">
+        <h3>Адвокат це юрист, здатний законно захищати від закону.</h3>
+            <p class="mb-0">Це той, хто шукає позитивне в правопорушенні і негативне у покаранні.</p>
+      </div>
+    </section>
+    
+    <section class="about bg-pattern">
+      <div class="container">
+        <div class="row">          
+          <div class="col-lg-6">
+            <div class="about-section-text">
+              <div class="section-subheading">
+                Якість, швидкість, конфеденціальніть
+              </div>
+              <h2 class="section-heading">Ваш надійний адвокат</h2>
+              <p>
+                 За своїми плечима маю великий юридичний досвід, який реалізується в адвокатській діяльності. Працюю на задоволення інтересів та досягнення результату для своїх клієнтів. Ціную довіру і комфорт кожного, враховуючи особливі побажання по виконанню доручень. Підходжу до кожної справи з розумінням.
+     При роботі з клієнтом допомагаю визначити оптимальну стратегію дій, яка повинна базуватися на фактах,доказах. Прагну в роботі досягти максимальний результат за найменший час, без затягування процесів та зайвих матеріальних витрат.
+    Інтереси клієнта захищаю зі збереженням в таємниці тієї інформації яка мені стала відома або в подальшому  отримана.</p>
+    
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <img class="img-fluid" src="img/about.jpg" alt="" />
+          </div>
+          <div class="col-lg-12 mt-4 mt-lg-0">
+           <h4>Використовую право як дієвий та ефективний інструмент захисту інтересів.</h4>
+    <p>Працюю по багатьом напрямкам права: кримінальне, цивільне, сімейне, трудове, адміністративне, господарське, трудове та іншим галузям права.
+              </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
 
     <!-- Footer -->
     <footer class="py-5 bg-dark mt-auto text-white text-sm-center">
       <div class="container">
         <div class="row">
           <div class="col-md-6 text-md-left">
-            <p><i class="fas fa-phone-alt"></i> + 38 (096) 514-27-57</p>
-            <p><i class="fas fa-envelope"></i> kostbog2013@ukr.net</p>
+            <p><i class="fas fa-phone-alt"></i> + 38 (093) 626-65-76</p>
+            <p><i class="fas fa-envelope"></i> bogomaz-advocate@gmail.com</p>
             <p>
-              <i class="fas fa-map-marker-alt"></i> Полтавская область,
-              Кременчуг, ул. Мичурина 90
+              <i class="fas fa-map-marker-alt"></i> Кіровоградська обл., м.Олександрія, вул.Григорія Усика 47
             </p>
           </div>
           <div class="col-md-6 text-md-right">
@@ -373,7 +369,7 @@
               <a href="#" class="mx-3"><i class="fab fa-youtube"></i></a>
               <a href="#" class="mx-3"><i class="fab fa-linkedin"></i></a>
             </div>
-            <p class="mb-2 text-white">Copyright &copy; Кремлит 2020</p>
+            <p class="mb-2 text-white">Copyright &copy; 2022</p>
             <p>Разработка <a href="https://go-site.com.ua/">Go-site</a></p>
           </div>
         </div>
